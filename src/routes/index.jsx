@@ -1,17 +1,20 @@
 import { createBrowserRouter } from "react-router-dom";
+import Home from "../pages/home";
+import Notifications from "../pages/notifications";
+import Explore from "../pages/explore";
 
 const routes = createBrowserRouter([
     {
         path: "/",
-        element: "Main Page"
+        element: <Home />
     },
     {
         path: "/explore",
-        element: "Explore"
+        element: <Explore />
     },
     {
         path: "/notifications",
-        element: "Notification"
+        element: <Notifications />
     }
 ])
 
