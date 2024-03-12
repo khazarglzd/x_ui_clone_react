@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
 import routes from "./routes"
-import "./asset/css/tailwind.css"
+import "./assets/css/tailwind.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
