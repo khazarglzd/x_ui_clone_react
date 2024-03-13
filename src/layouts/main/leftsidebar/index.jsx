@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from './Logo'
-import Menu from './Menu'
+import Logo from '../leftsidebar/logo/index'
+import Menu from '../leftsidebar/menu/index'
 
 const LeftSideBar = () => {
     return (
