@@ -175,5 +175,69 @@ export const mainMenu = [
                 </svg>
             )
         }
+    },
+
+]
+
+export const topics = [
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'tag',
+            value: 'TFF'
+        }
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'query',
+            value: 'Starlink'
+        },
+        postCount: 15640
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'tag',
+            value: 'BJK'
+        }
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'query',
+            value: 'Starlink'
+        },
+        postCount: 35640
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'query',
+            value: 'FB'
+        }
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'query',
+            value: 'Starlink'
+        },
+        postCount: 45640
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'query',
+            value: 'GS'
+        }
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'query',
+            value: 'Starlink'
+        },
+        postCount: 25640
     }
 ]
