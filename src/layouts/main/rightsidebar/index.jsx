@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './footer'
 import Premium from './premium'
 import Search from './search'
 import Topics from './topics'
@@ -10,6 +11,7 @@ const RightSideBar = () => {
             <Search />
             <Premium />
             <Topics />
+            <Footer />
 
         </aside>
     )
