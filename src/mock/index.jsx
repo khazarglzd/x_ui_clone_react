@@ -1,24 +1,41 @@
 export const posts = [
-
     {
         id: '1708632465282150796',
-        content: `Imagination Land!`,
-        photos: [
-            'https://pbs.twimg.com/media/F7ZIK8KWgAAP8pH?format=jpg&name=900x900'
-        ],
+        type: 'poll',
+        content: `Secimlerde oy verdiniz mi?`,
+        poll: {
+            voted: false,
+            votes: 12,
+            answers: [
+                {
+                    id: 1,
+                    text: 'Evet',
+                    votes: 8
+                },
+                {
+                    id: 2,
+                    text: 'Hayır',
+                    votes: 1
+                },
+
+            ]
+        },
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
             username: 'elonmusk',
             fullName: 'Elon Musk',
             verified: true
         },
+
         stats: {
-            comments: 6573535,
-            repost: 343434,
-            like: 366946,
-            view: 23453453
+            comments: 43535,
+            repost: 3434,
+            like: 96946,
+            view: 903453
         }
     },
+
+
     {
         id: '1708704613141270652',
         content: `Less than a week since OpenAI started rolling out ChatGPT vision.
@@ -36,6 +53,27 @@ And people have been busy executing god-like tasks.
             repost: 12,
             like: 99,
             view: 2341
+        }
+    },
+    {
+        id: '1708632465282150796',
+        type: 'photo',
+        content: `Imagination Land!`,
+        photos: [
+            'https://pbs.twimg.com/media/F7ZIK8KWgAAP8pH?format=jpg&name=900x900',
+
+        ],
+        account: {
+            avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
+            username: 'elonmusk',
+            fullName: 'Elon Musk',
+            verified: true
+        },
+        stats: {
+            comments: 6573535,
+            repost: 343434,
+            like: 366946,
+            view: 23453453
         }
     },
     {
@@ -68,6 +106,7 @@ Prompt in ALT tag + more examples in thread:`,
         photos: [
             'https://pbs.twimg.com/media/F7aKxHhaAAAnHlS?format=jpg&name=large'
         ],
+        type: "photo",
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1617700070710992896/pF3T_gMB_400x400.jpg',
             username: 'rowancheung',

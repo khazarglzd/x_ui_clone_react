@@ -1,10 +1,10 @@
-import { posts as postData } from "../../../mock";
+import { posts } from "../../../mock";
 import Post from "../../../components/post";
-import { useState } from "react";
+
 
 export default function ForYou() {
 
-    const [posts, setPosts] = useState(postData)
+
 
     return (
         <>
